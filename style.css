@@ -357,7 +357,7 @@ body {
   backdrop-filter: blur(5px);
 }
 
-#sm-banner span{
+#sm-banner span {
   color: #fff;
   font-size: 21px;
   font-weight: 500;
@@ -365,7 +365,17 @@ body {
   backdrop-filter: blur(5px);
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button {
   background: #088178;
   border: 1px solid #088178;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
 }
