@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;70;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -116,7 +114,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #02a9c6;
 }
 
 #navbar li a.active::after,
@@ -124,7 +122,7 @@ body {
   content: "";
   width: 30%;
   height: 2px;
-  background: #088178;
+  background: #02a9c6;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -198,7 +196,7 @@ body {
   padding: 9px 8px 9px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color: #02a9c6;
   background-color: #fddde4;
   font-size: 15px;
 }
@@ -269,7 +267,7 @@ body {
   color: #1a1a1a;
   font-size: 18px;
   font-weight: 700;
-  color: #088178;
+  color: #02a9c6;
 }
 
 #product1 .product .iconCartOutline {
@@ -279,7 +277,7 @@ body {
   border-radius: 50px;
   background-color: #e8f6ea;
   font-weight: 500;
-  color: #088178;
+  color: #02a9c6;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
@@ -322,7 +320,7 @@ body {
 }
 
 #banner button:hover {
-  background-color: #088178;
+  background-color: #02a9c6;
   color: #fff;
 }
 
@@ -366,8 +364,8 @@ body {
 }
 
 #sm-banner .banner-box:hover button {
-  background: #088178;
-  border: 1px solid #088178;
+  background: #02a9c6;
+  border: 1px solid #02a9c6;
 }
 
 #newsletter {
@@ -378,4 +376,46 @@ body {
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
+}
+
+#newsletter h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#newsletter p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+#newsletter p span {
+  color: #ffbd27;
+}
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input{
+  height: 3.525rem;
+  padding: 0 1.25em;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+  background-color: #02a9c6;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 18px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
